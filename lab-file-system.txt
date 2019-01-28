@@ -42,7 +42,16 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+ent-v314-002:~ student$ mkdir animals
+ent-v314-002:~ student$ ls
+AMALogger20190109.log	MPLABXProjects		animals
+Adlm			Movies			ipe.properties
+Adobe			Music			isus
+Applications		New Unity Project	mtech1002
+Desktop			Pictures		pymel.log
+Documents		Public			xgen
+Downloads		QLData
+Library			Things
 
 
 ==========
@@ -53,6 +62,15 @@ $ ls
 
 Copy and paste the output below.
 ----------
+ent-v314-002:~ student$ ls
+AMALogger20190109.log	MPLABXProjects		animals
+Adlm			Movies			food
+Adobe			Music			ipe.properties
+Applications		New Unity Project	isus
+Desktop			Pictures		mtech1002
+Documents		Public			pymel.log
+Downloads		QLData			xgen
+Library			Things
 
 
 
@@ -64,7 +82,16 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+ent-v314-002:~ student$ mkdir -p foo/bar/baz/qux
+ent-v314-002:~ student$ ls
+AMALogger20190109.log	MPLABXProjects		animals
+Adlm			Movies			foo
+Adobe			Music			food
+Applications		New Unity Project	ipe.properties
+Desktop			Pictures		isus
+Documents		Public			mtech1002
+Downloads		QLData			pymel.log
+Library			Things			xgen
 
 
 ==========
@@ -86,7 +113,9 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+ent-v314-002:~ student$ cd ../..
+ent-v314-002:/ student$ pwd
+/
 
 
 ==========
@@ -97,7 +126,8 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+ent-v314-002:~ student$ pwd
+/Users/student
 
  
 ==========
@@ -108,7 +138,9 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+ent-v314-002:~ student$ cd ../../../..
+ent-v314-002:/ student$ pwd
+/
 
 
 ==========
@@ -120,7 +152,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+drwxrwxr-x+ 121 root       admin  4114 Jan 18 13:06 Applications
+drwxr-xr-x    4 root       wheel   136 Jan  9 12:51 Developer
 
 
 ==========
