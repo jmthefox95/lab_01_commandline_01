@@ -17,7 +17,14 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
+ent-v314-002:~ student$ ls
+AMALogger20190109.log	Library			QLData
+Adlm			MPLABXProjects		Things
+Adobe			Movies			ipe.properties
+Applications		Music			isus
+Desktop			New Unity Project	pymel.log
+Documents		Pictures		xgen
+Downloads		Public
 
 
 ==========
@@ -27,19 +34,21 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+No input. Pressing TAB after D doesn't autofill.
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+ent-v314-002:~ student$ ls D
+Desktop/   Documents/ Downloads/ 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ent-v314-002:~ student$ ent-v314-002:~ student$ ls D
+-bash: ent-v314-002:~: command not found 
 
 
 ==========
@@ -49,7 +58,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+drwxr-xr-x   8 student  staff   272 Jan 17  2018 Ableton
+drwxrwxrwx  14 student  staff   476 Jan 17  2018 Adobe
 
 
 ==========
@@ -59,7 +69,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.			Avid Projects		Processing
+..			Fritzing		REAPER Media
 
 
 ==========
@@ -69,7 +80,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+The command that was repeated is ls -a Documents
 
 
 ==========
@@ -79,7 +90,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -89,7 +100,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+Macintosh HD		firmwaresyncd.mO9b3R
 
 
 ==========
@@ -99,31 +110,31 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+The up arrow key.
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+The two flags used in this exercise are ls and doesnotexist.
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+The key used to autocomplete a command or a file name is the TAB key.
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+The main tab used throughout the exercise is ls.
 
 
 ==========
@@ -139,7 +150,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -149,7 +160,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
